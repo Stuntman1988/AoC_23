@@ -1,6 +1,6 @@
 import java.io.File
 
-fun main(args: Array<String>) {
+fun main() {
     val file = "src/main/kotlin/Day_1/input.txt"
     val list: List<String> = File(file).readLines()
     println("Part 1: " + getA(list))
